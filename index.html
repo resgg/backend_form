@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+<div class="rf">
+  <form action="connect.php" method="post">
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="firstName" placeholder="Your name..">
+
+    <label for="lname">Phone Number:</label>
+    <input type="text" id="phonenumber" name="phoneNumber" placeholder="975116896">
+
+    <label for="lname">Email:</label>
+    <input type="Email" id="email" name="email" placeholder="abc@gmail.com">
+  
+    <label for="lname">Team Name:</label>
+    <input type="text" id="teamName" name="teamName" placeholder="Your team name...">
+
+    <label for="lname">Number of members in the team:</label>
+    <input type="text" id="members" name="members" placeholder="Eg:4">
+    
+    <label for="lname">Mention your team members name (seperate the names with commas)</label>
+    <textarea id="membersName" name="membersName" placeholder="Mani,reshma,anusha.." style="height:100px"></textarea>
+
+    <label for="lname">Mention your team members email ids (seperate the email ids with commas)</label>
+    <textarea id="membersEmail" name="membersEmail" placeholder="Mani0987@gamil.com,reshma09@gmail.com,anusha@.." style="height:100px"></textarea>
+    
+    <label for="lname">Mention the name of the IEEE member in your team</label>
+    <input type="text" id="ieeeName" name="ieeeName" placeholder="Type name..">
+     
+    <label for="lname">IEEE Membership id</label>
+    <input type="text" id="ieeeId" name="ieeeId" placeholder="Type Id..">
+    
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
